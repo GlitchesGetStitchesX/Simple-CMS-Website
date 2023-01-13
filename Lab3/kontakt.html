@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-type" content="text/html; charset=UTF-8" />
+		<meta http-equiv="Content-Language" content="pl" />
+		<meta name="Author" content="Dominika Jabłońska" />
+		<title>Filmy oscarowe</title>
+		<link rel="stylesheet" href="styles.css">
+		<script src="kolorujtlo.js"></script>
+	</head>
+	<body>
+		<header>
+			<div class="navbar">
+				<a href="main.html">Home</a>
+				<a href="filmy.html">Nominacje</a>
+				<a href="rekordy.html">Rekordy filmowe</a>
+				<a href="ciekawostki.html">Ciekawostki</a>
+				<a href="zasady.html">Zasady</a>
+				<a href="kontakt.html">Kontakt</a>
+				<button class="menu" onclick="myFunction()">Jasny/Ciemny</button>
+			</div>
+		</header>
+		<main>
+			<h1 class="film">Kontakt</h1>
+			<br>
+			<div class="email-container">
+			<form>
+				<input type="email" id="fname" maxlength="64" placeholder="jkowalski@email.pl">
+
+				<textarea id="subject" name="subject" placeholder="Moja wiadomość" style="height:200px"></textarea>
+
+				<input type="submit" value="Wyślij"/>
+			</form>
+			</div>
+			<div class="footer">
+				<div class="footer-heading footer-1">
+				  <h2>OFICJALNE KONTA AKADEMII</h2>
+				  <li><a href="https://www.instagram.com/theacademy/">INSTAGRAM</a></li>
+				  <li><a href="https://www.facebook.com/TheAcademy/">FACEBOOK</a></li>
+				  <li><a href="https://www.oscars.org/">STRONA INTERNETOWA</a></li>
+				</div>
+			</div>
+			<div class="sticky-footer">
+				&copy; <span class ="yearJS"></span> Dominika Jabłońska
+				<script src="timedate.js" defer></script>
+			</div>
+		</main>
+	</body>
+</html>

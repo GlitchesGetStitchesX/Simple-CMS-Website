@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-type" content="text/html; charset=UTF-8" />
+		<meta http-equiv="Content-Language" content="pl" />
+		<meta name="Author" content="Dominika Jabłońska" />
+		<title>Filmy oscarowe</title>
+		<script src="kolorujtlo.js" type="text/javascript"></script>
+		<script src="timedate.js" type="text/javascript"></script>
+		<style>
+.topnav {
+  background-color: #E75A7C;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: #3B1F2B;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family:verdana
+}
+
+.topnav a:hover {
+  background-color: #3B1F2B;
+  color: #E75A7C;
+}
+	</style>
+	</head>
+	<body onload="startclock()">
+		<header>
+			<nav class="topnav">
+				<a href="main.html">Home</a>
+				<a href="filmy.html">Nominacje</a>
+				<a href="rekordy.html">Rekordy filmowe</a>
+				<a href="ciekawostki.html">Ciekawostki</a>
+				<a href="zasady.html">Zasady</a>
+				<a href="kontakt.html">Kontakt</a>
+				<a href="jstest.html">JavaScript</a>
+			</nav>
+		</header>
+		<br>
+		<FORM METHOD="POST" NAME="background">
+			<INPUT TYPE="button" VALUE="żółty" ONCLICK="changeBackground('#FFF000')">
+			<INPUT TYPE="button" VALUE="czarny" ONCLICK="changeBackground('#000000')">
+			<INPUT TYPE="button" VALUE="biały" ONCLICK="changeBackground('#FFFFFF')">
+			<INPUT TYPE="button" VALUE="zielony" ONCLICK="changeBackground('#00FF00')">
+			<INPUT TYPE="button" VALUE="niebieski" ONCLICK="changeBackground('#0000FF')">
+			<INPUT TYPE="button" VALUE="pomarańczowy" ONCLICK="changeBackground('#FF8000')">
+			<INPUT TYPE="button" VALUE="szary" ONCLICK="changeBackground('#c0c0c0')">
+			<INPUT TYPE="button" VALUE="czerwony" ONCLICK="changeBackground('#FF0000')">
+		</FORM>
+		<br>
+		<div id="zegarek"></div>
+		<div id="data"></div>
+	</body>
+</html>

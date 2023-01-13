@@ -1,0 +1,303 @@
+.navbar {
+    background-image: linear-gradient(to bottom right, #E75A7C, #59A5D8);
+    left: 0;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    border-radius: 0px 0px 5px 5px;
+      border: 2px #E75A7C;
+  }
+  
+  .navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: helvetica, sans-serif;
+    font-weight: bold;
+  }
+  
+  .navbar a:hover {
+    background-image: linear-gradient(to bottom right, #E75A7C, #090ea1);
+    color: white;
+    transition: 0.3s ease-out;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+  
+  main {
+    margin-top: 30px; /* Add a top margin to avoid content overlay */
+    padding-top: 70px;
+  }
+  
+  h1.film {
+      font-family: helvetica, sans-serif;
+      color: white;
+      background-image: linear-gradient(to bottom right, #59A5D8, #e75ad9);
+      border: 2px #59A5D8;
+      padding: 14px 30px;
+      border-radius: 75px;
+      margin-bottom: 50px;
+  }
+  
+  h2.film {
+      font-family: helvetica, sans-serif;
+      color: white;
+      background-image: linear-gradient(to bottom right, rgb(93, 93, 93), rgb(51, 51, 51));
+      border: 2px rgb(93, 93, 93);
+      padding: 14px 30px;
+      border-radius: 75px;
+  }
+  
+  p.text {
+      font-family:verdana;
+      color: #F2F5EA;
+      height: 100px;
+      background-color: rgb(60, 60, 60);
+      border: 2px rgb(60, 60, 60);
+      padding: 14px 30px;
+      border-radius: 15px;
+      margin-bottom: 80px;
+      display: flex;
+    align-items: center;
+  }
+
+  ul.text {
+    font-family:verdana;
+    color: #F2F5EA;
+    background-color: rgb(60, 60, 60);
+    border: 2px rgb(60, 60, 60);
+    padding: 14px 30px;
+    border-radius: 15px;
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+}
+
+.sticky-footer{
+    font-family: helvetica, sans-serif;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(20, 20, 20);
+    color: white;
+    text-align: center;
+    border-radius: 5px 5px 0px 0px;
+    padding: 10px;
+}
+
+  
+  .footer {
+        right:0;
+      background-color: #242424;
+      color: white;
+      bottom: 0;
+      padding: 20px 0px 20px 40px;
+      left: 0;
+      border: 2px #222222;
+      border-radius: 5px;
+      margin-top: 50px;
+  }
+  
+  .footer-heading {
+      display: flex;
+      flex-direction: column;
+  }
+  
+  .footer-heading h2 {
+      margin-bottom: 2rem;
+      color: #E75A7C;
+      font-family: helvetica, sans-serif;
+  }
+  
+  .footer-heading a {
+      color:white;
+      text-decoration: none;
+      margin-bottom: 15px;
+      font-family: helvetica, sans-serif;
+  }
+  
+  .footer-heading a:hover {
+      color:#E75A7C;
+      transition: 0.3s ease-out;
+  }
+  
+  .footer-heading li {
+      list-style-type: none;
+      padding-bottom: 30px;
+      padding-left: 40px;
+  }
+  
+  body {
+      background-color: #333;
+  }
+
+  caption {
+    font-family: helvetica, sans-serif;
+    color: #F2F5EA;
+    background-image: linear-gradient(to bottom right, rgb(93, 93, 93), rgb(51, 51, 51));
+    border: 2px rgb(60, 60, 60);
+    padding: 14px 30px;
+    border-radius: 75px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.table-style {
+	border:none;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+	text-align: center;
+	width: 100%;
+}
+.table-style thead tr {
+    background-color: #E75A7C;
+    color: #ffffff;
+    text-align: center;
+}
+
+.table-style th {
+	padding: 12px 15px;
+}
+.table-style td {
+    padding: 12px 15px;
+	border-left: 1px solid #434141;
+}
+
+.table-style tbody tr {
+    border-bottom: 1px solid #2b2b2b;
+}
+
+.table-style tbody tr:nth-of-type(even) {
+    background-color: #2e2b2b;
+	color: #ffffff
+}
+
+.table-style tbody tr:nth-of-type(odd) {
+    background-color: #333131;
+	color: #ffffff
+}
+
+.table-style tbody tr:last-of-type {
+    border-bottom: 2px solid #E75A7C;
+}
+
+.accordion {
+    cursor: pointer;
+    width: 100%;
+    outline: none;
+    transition: 0.4s;
+    font-family: helvetica, sans-serif;
+    color: white;
+    background-image: linear-gradient(to bottom right, rgb(93, 93, 93), rgb(51, 51, 51));
+    border: 2px rgb(60, 60, 60);
+      padding: 14px 30px;
+      border-radius: 75px;
+      text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .accordion:hover {
+    background-color: #ccc;
+  }
+  
+  /* Style the accordion panel. Note: hidden by default */
+  .panel {
+    padding: 14px 30px;
+    display: none;
+    overflow: hidden;
+    font-family:verdana;
+      color: #F2F5EA;
+      height: 100px;
+      background-color: rgb(60, 60, 60);
+      border: 2px rgb(60, 60, 60);
+      border-radius: 15px;
+  }
+
+  .wrapingimage  {  
+    float: right;   
+    margin: 120px 10px 0px 4px; 
+
+}
+
+img.wrap {
+    width: 50%;
+    height: auto;
+}
+
+input[type=email], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 2px rgb(60, 60, 60); 
+    border-radius: 15px;
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px;
+    resize: vertical;
+    background-color: rgb(35, 35, 35);
+    color: white;
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-image: linear-gradient(to bottom right, #E75A7C, #59A5D8);
+    color: white;
+    border: 2px #59A5D8;
+    padding: 14px 30px;
+    border-radius: 75px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+
+  .email-container {
+    background-color: rgb(60, 60, 60);
+    border: 2px rgb(60, 60, 60);
+    border-radius: 15px;
+    padding: 20px;
+  }
+
+  img.posters {
+    width: 200px; 
+    height: 300px;
+    border: 5px solid white;
+    border-radius: 5px;
+  }
+
+  img.photos {
+    width: 180px; 
+    height: 180px;
+    border: 5px solid white;
+    border-radius: 5px;
+  }
+
+  .dark-mode {
+    background-color: rgb(228, 228, 228);
+    color: black;
+  }
+
+  button.menu{
+    float: right;
+    display: flex;
+    margin-top: 12px;
+    margin-right: 10px;
+    padding: 5px;
+    border-radius: 15px;
+    border: 2px rgba(51,51,51,1);
+    background: radial-gradient(circle, rgba(105,105,105,1) 0%, rgba(71,71,71,1) 69%);
+    color: white;
+  }

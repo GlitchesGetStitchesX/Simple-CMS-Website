@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-type" content="text/html; charset=UTF-8" />
+		<meta http-equiv="Content-Language" content="pl" />
+		<meta name="Author" content="Dominika Jabłońska" />
+		<title>Filmy oscarowe</title>
+		<script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="style.css"/>
+		<style>
+
+.wrapingimage  
+{  
+float: right;   
+margin: 30px 12px 3px 4px; 
+
+}  
+.topnav {
+  background-color: #E75A7C;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: #3B1F2B;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family:verdana
+}
+
+.topnav a:hover {
+  background-color: #3B1F2B;
+  color: #E75A7C;
+}
+
+h1, h2 {
+	font-family:verdana;
+	color: #59A5D8;
+}
+
+p, li {
+	font-family:verdana;
+	color: #F2F5EA;
+}
+
+		</style>
+	</head>
+	<body style="background-color: #2b2b2b">
+		<header>
+			<nav class="topnav">
+				<a href="main.html">Home</a>
+				<a href="filmy.html">Nominacje</a>
+				<a href="rekordy.html">Rekordy filmowe</a>
+				<a href="ciekawostki.html">Ciekawostki</a>
+				<a href="zasady.html">Zasady</a>
+				<a href="kontakt.html">Kontakt</a>
+				<a href="jstest.html">JavaScript</a>
+			</nav>
+		</header>
+		<div id="animacjaTestowa1" class="test-block">Najedz, a się powiększy</div>
+		<script>
+			$("#animacjaTestowa1").on({
+				"mouseover" : function(){
+					$(this).animate({
+						width: 300
+					}, 800);
+				},
+				"mouseout" : function(){
+					$(this).animate({
+						width: 200
+					}, 800);
+				}
+			});
+		</script>
+		<main>
+			<div class="wrapingimage">
+				<img src="https://upload.wikimedia.org/wikipedia/en/7/7f/Academy_Award_trophy.png">
+			</div>
+			<h1>Zasady</h1>
+			<br>
+			<p>Aby dostać nominację oraz wygrać dana osoba lub film musi przebyć długą drogę, którą wytłumaczymy:</p>
+			<h2>Zgłaszanie filmów oraz osób do nominacji</h2>
+			<p>By film mógł w ogóle się ubiegać o nominację musi spełnić kilka podstawowych warunków:</p>
+			<ul>
+				<li>musi trwać co najmniej 40 minut</li>
+				<li>musi mieć publiczną premierę w kinie w danym roku kalendarzowym</li>
+				<li>musi być wyświetlany w standardzie filmu 35mm, 70mm lub 24-klatkowym albo 48-klatkowym cyfrowym formacie</li>
+				<li>musi być wyświetlany w kinie na terenie hrabstwa Los Angeles przez minimum siedem dni z rzędu, a wstęp na seans musi być płatny (i przynajmniej jeden musi odbywać się między godzinami 18, a 22)</li>
+				<li>mieć kampanię reklamową (w dowolnej, przyjętej za standardową w praktyce, formie) na terenie hrabstwa Los Angeles</li>
+			</ul>
+			<p>Jeśli dana produkcja spełnia wszystkie powyższe warunki to jej producent lub dystrybutor może do końca listopada wypełnić stosowny formularz i wysłać go do Akademii zgłaszając jego aspiracje do zdobycia nagród. Jeśli film ma mieć swoją premierę w grudniu, do dnia 15 grudnia danego roku dodatkowo nadesłana musi być lista planowanych seansów do końca tego roku.</p>
+			<h2>Głosowanie na filmy oraz osoby, które otrzymają nominację</h2>
+			<p>Kto może brać udział w głosowaniu? Wszyscy aktywni członkowie Amerykańskiej Akademii Sztuki i Wiedzy Filmowej, których w chwili obecnej jest ponad 6000.</p>
+			<h2>Jak przeliczane są głosy?</h2>
+			<p>Najpierw specjaliści liczą sumę wszystkich wskazanych osób na kartach do głosowania. Powiedzmy, że w kategorii aktorskiej głosuje 3000 osób, które wskazują na różnych miejscach swojej listy łącznie 30 faworytów do nagrody. Przelicza się wówczas 3000 i dzieli przez 6 (liczba pięciu możliwych nominowanych plus jeden) i mamy liczbę 500. To tak zwana „Magiczna Liczba” Jeśli spośród 30 osób wskazanych na dowolnym miejscu w kartach członków Akademii znajdą się osoby wskazane 500 razy – wówczas łapią się do węższego grona wskazanych osób.Następnie mamy ponowne liczenie, tym razem liczy się liczba zgłoszeń na pierwszym miejscu na kartach głosujących. Bo pamiętacie, że każdy może wskazać w danej kategorii kilku faworytów, więc Magiczną Liczbę na wszystkich kartach może otrzymać łącznie więcej osób niż można nominować. I tutaj wreszcie liczy się waga głosu – wskazanie na pierwszym miejscu na liście.</p>
+			<h2>Głosowanie na filmy oraz osoby, które zdobędą nagrodę</h2>
+			<p>Po ogłoszeniu nominacji (w każdym roku Akademia ustala szczegółowy harmonogram dla konkretnego roku, więc jest to data ruchoma) znowu rusza wielka machina logistyczna i rozsyłane są karty do głosowania do wszystkich członków Akademii.System głosowania się już nieco zmienia. W przeciwieństwie do głosowania na nominacje nie ma już możliwości wskazywania kilku faworytów – każdy może głosować wyłącznie na jedną nominowaną osobę lub produkcję. I wygrywa oczywiście nominacja z największą liczbą głosów. Bez ważenia głosów, Magicznych Liczb i innych komplikacji.Jednak w przeciwieństwie do etapu nominowania, tutaj każdy głosuje na każdą kategorię.</p>
+		</main>
+		<footer>
+		<a href="https://troyann.pl/jak-wylaniani-sa-zwyciezcy-oscarow.html" target="_blank">Źródło tekstu</a>
+		</footer>
+	</body>
+</html>
