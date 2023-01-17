@@ -1,0 +1,410 @@
+/* navbar style */
+.navbar {
+    background-image: linear-gradient(to bottom right, #E75A7C, #59A5D8);
+    left: 0;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    border-radius: 0px 0px 5px 5px;
+      border: 2px #E75A7C;
+  }
+  
+  /* navbar links style */
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: helvetica, sans-serif;
+    font-weight: bold;
+  }
+  
+  /* navbar links hover style */
+.navbar a:hover {
+    background-image: linear-gradient(to bottom right, #E75A7C, #090ea1);
+    color: white;
+    transition: 0.3s ease-out;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+  
+  /* main style */
+main {
+    margin-top: 30px; 
+    padding-top: 70px;
+  }
+  
+  /* headers h1 style */
+h1.film {
+    font-family: helvetica, sans-serif;
+    color: white;
+    background-image: linear-gradient(to bottom right, #59A5D8, #e75ad9);
+    border: 2px #59A5D8;
+    padding: 14px 30px;
+    border-radius: 75px;
+    margin-bottom: 50px;
+  }
+  
+  /* headers h2 style */
+h2.film {
+  font-family: helvetica, sans-serif;
+  color: white;
+  background-image: linear-gradient(to bottom right, rgb(93, 93, 93), rgb(51, 51, 51));
+  border: 2px rgb(93, 93, 93);
+  padding: 14px 30px;
+  border-radius: 75px;
+  }
+  
+/* text style */
+p.text {
+  font-family:verdana;
+  color: #F2F5EA;
+  height: 150px;
+  background-color: rgb(60, 60, 60);
+  border: 2px rgb(60, 60, 60);
+  padding: 14px 30px;
+  border-radius: 15px;
+  margin-bottom: 80px;
+  display: flex;
+  align-items: center;
+  }
+
+  .text2 {
+    font-family:verdana;
+    color: #F2F5EA;
+    background-color: rgb(60, 60, 60);
+    border: 2px rgb(60, 60, 60);
+    padding: 40px 60px;
+    border-radius: 15px;
+    margin-bottom: 80px;
+    align-items: center;
+    }
+
+
+  /* admin panel text style*/
+p.admin {
+  font-family:verdana;
+  color: #F2F5EA;
+}
+
+/* list style */
+ul.text {
+  font-family:verdana;
+  color: #F2F5EA;
+  background-color: rgb(60, 60, 60);
+  border: 2px rgb(60, 60, 60);
+  padding: 14px 30px;
+  border-radius: 15px;
+  margin-bottom: 60px;
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+}
+
+/* sticky footer style */
+.sticky-footer{
+  font-family: helvetica, sans-serif;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(20, 20, 20);
+  color: white;
+  text-align: center;
+  border-radius: 5px 5px 0px 0px;
+  padding: 10px;
+}
+
+/* footer background style */
+.footer {
+  right:0;
+  background-color: #242424;
+  color: white;
+  bottom: 0;
+  padding: 20px 0px 20px 40px;
+  left: 0;
+  border: 2px #222222;
+  border-radius: 5px;
+  margin-top: 50px;
+  }
+
+/* footer heading style */
+.footer-heading {
+  display: flex;
+  flex-direction: column;
+  }
+  
+/* footer heading h2 style */
+.footer-heading h2 {
+  margin-bottom: 2rem;
+  color: #E75A7C;
+  font-family: helvetica, sans-serif;
+  }
+
+/* footer link style */
+.footer-heading a {
+  color:white;
+  text-decoration: none;
+  margin-bottom: 15px;
+  font-family: helvetica, sans-serif;
+  font-weight: bold;
+  }
+  
+/* footer link hover style */
+.footer-heading a:hover {
+  color:#E75A7C;
+  transition: 0.3s ease-out;
+  font-weight: bold;
+  }
+  
+/* footer list style */
+.footer-heading li {
+  list-style-type: none;
+  padding-bottom: 30px;
+  padding-left: 40px;
+  }
+  
+/* body background style */
+body {
+  background-color: #333;
+  }
+
+/* table caption style */
+caption {
+  font-family: helvetica, sans-serif;
+  color: #F2F5EA;
+  background-image: linear-gradient(to bottom right, rgb(93, 93, 93), rgb(51, 51, 51));
+  border: 2px rgb(60, 60, 60);
+  padding: 14px 30px;
+  border-radius: 75px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+/* table style */
+.table-style {
+	border:none;
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  min-width: 400px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+	text-align: center;
+	width: 100%;
+}
+
+/* table header row style */
+.table-style thead tr {
+  background-color: #E75A7C;
+  color: #ffffff;
+  text-align: center;
+}
+
+/* table header style */
+.table-style th {
+	padding: 12px 15px;
+}
+
+/* table cell style */
+.table-style td {
+  padding: 12px 15px;
+	border-left: 1px solid #434141;
+}
+
+/* table body style */
+.table-style tbody tr {
+  border-bottom: 1px solid #2b2b2b;
+}
+
+/* table even body style */
+.table-style tbody tr:nth-of-type(even) {
+  background-color: #2e2b2b;
+	color: #ffffff
+}
+
+/* table odd body style */
+.table-style tbody tr:nth-of-type(odd) {
+  background-color: #333131;
+	color: #ffffff
+}
+
+/* table last body style */
+.table-style tbody tr:last-of-type {
+  border-bottom: 2px solid #E75A7C;
+}
+
+/* accordion style */
+.accordion {
+  cursor: pointer;
+  width: 100%;
+  outline: none;
+  transition: 0.4s;
+  font-family: helvetica, sans-serif;
+  color: white;
+  background-image: linear-gradient(to bottom right, rgb(93, 93, 93), rgb(51, 51, 51));
+  border: 2px rgb(60, 60, 60);
+  padding: 14px 30px;
+  border-radius: 75px;
+  text-align: left;
+  font-size: 20px;
+  font-weight: bold;
+  }
+  
+  /* accordion hover style */
+.active, .accordion:hover {
+    background-color: #ccc;
+  }
+  
+  /* accordion panel style */
+.panel {
+    padding: 14px 30px;
+    display: none;
+    overflow: hidden;
+    font-family:verdana;
+    color: #F2F5EA;
+    height: 100px;
+    background-color: rgb(60, 60, 60);
+    border: 2px rgb(60, 60, 60);
+    border-radius: 15px;
+  }
+
+/* text around image style */
+.wrapingimage  {  
+  float: right;   
+  margin: 120px 10px 0px 4px; 
+
+}
+
+/* wrapped image style */
+img.wrap {
+  width: 50%;
+  height: auto;
+}
+
+/* email, select, text input style */
+input[type=email], select, textarea {
+  width: 100%; 
+  padding: 12px; 
+  border: 2px rgb(60, 60, 60); 
+  border-radius: 15px;
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px;
+  resize: vertical;
+  background-color: rgb(35, 35, 35);
+  color: white;
+  }
+
+/* text, password, numer input style */
+input[type=text], input[type=password], input[type=number]{
+  width: 100%; 
+  padding: 12px; 
+  border: 2px rgb(60, 60, 60); 
+  border-radius: 15px;
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px;
+  resize: vertical;
+  background-color: rgb(35, 35, 35);
+  color: white;
+  }
+  
+/* input submit style */
+input[type=submit] {
+  background-image: linear-gradient(to bottom right, #E75A7C, #59A5D8);
+  color: white;
+  border: 2px #59A5D8;
+  padding: 14px 30px;
+  border-radius: 75px;
+  cursor: pointer;
+  }
+
+/* button style */
+button {
+  background-image: linear-gradient(to bottom right, #E75A7C, #59A5D8);
+  color: white;
+  border: 2px #59A5D8;
+  padding: 14px 30px;
+  border-radius: 75px;
+  cursor: pointer;
+  }
+  
+/* submit hover style */
+input[type=submit]:hover {
+  background-color: #45a049;
+  }
+
+/* email container style */
+.email-container {
+  background-color: rgb(60, 60, 60);
+  border: 2px rgb(60, 60, 60);
+  border-radius: 15px;
+  padding: 20px;
+  }
+
+/* poster image style */
+img.posters {
+  width: 200px; 
+  height: 300px;
+  border: 5px solid white;
+  border-radius: 5px;
+  }
+
+/* photos image style */
+img.photos {
+  width: 180px; 
+  height: 180px;
+  border: 5px solid white;
+  border-radius: 5px;
+  }
+
+/* dark mode style */
+.dark-mode {
+  background-color: rgb(228, 228, 228);
+  color: black;
+  }
+
+/* dark mode button in the menu style */
+button.menu{
+  float: right;
+  display: flex;
+  margin-top: 12px;
+  margin-right: 10px;
+  padding: 5px;
+  border-radius: 15px;
+  border: 2px rgba(51,51,51,1);
+  background: radial-gradient(circle, rgba(105,105,105,1) 0%, rgba(71,71,71,1) 69%);
+  color: white;
+  }
+
+/* trailer videos style */
+iframe.trailer {
+  display: block;
+  margin: 0 auto;
+  }
+
+/* sticky footer text style */
+.sticky-text{
+  font-family: helvetica, sans-serif;
+  position: fixed;
+  margin-top: 18px;
+  left: 0;
+  width: 100%;
+  background-color: rgb(20, 20, 20);
+  color: white;
+  text-align: center;
+  border-radius: 5px 5px 0px 0px;
+  padding: 10px;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  font-family: helvetica, sans-serif;
+  color: white;
+  font-weight: bold;
+}
