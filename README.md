@@ -8,4 +8,5 @@
 6) Paste "http://localhost/lab12/index.php" in the browser address
 7) Login and password are in "cfg.php" (the actual login and password are stored in the database)
 
-(I had to follow lecturer's requirements for the project, so a lot of solutions are something I'd either do differently or learn how to do it differently)
+(A lot of things in this project I'd either do differently or learn how to do it differently)
+
